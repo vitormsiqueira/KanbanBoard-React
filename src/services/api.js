@@ -1,7 +1,7 @@
 export function loadLists() {
     return [
       { 
-        title: 'Tarefas', 
+        title: 'Tasks', 
         creatable: true,
         cards: [
           {
@@ -37,7 +37,7 @@ export function loadLists() {
         ]
       },
       { 
-        title: 'Fazendo', 
+        title: 'Doing', 
         creatable: false,
         cards: [
           {
@@ -49,7 +49,7 @@ export function loadLists() {
         ]
       },
       { 
-        title: 'Pausado', 
+        title: 'Paused', 
         creatable: false,
         cards: [
           {
@@ -72,7 +72,7 @@ export function loadLists() {
         ]
       },
       { 
-        title: 'Concluído', 
+        title: 'Finished', 
         creatable: false,
         done: true,
         cards: [
